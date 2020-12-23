@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM arm64v8/alpine:latest
 MAINTAINER gauss.b@ub-gauss.de
 
 #install necessary packages
