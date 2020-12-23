@@ -1,0 +1,11 @@
+image: nightbyter/fetchmail:latest
+manifests:
+  - image: nightbyter/fetchmail:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: nightbyter/fetchmail:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
